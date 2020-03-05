@@ -1,11 +1,11 @@
-import React from 'react';
-import { Style, StyleEdit } from "./fromEdit.style";
+// import React from 'react';
+// import { Style, StyleEdit } from "./fromEdit.style";
 
-const FromEdit = (props) => {
-    const { item, handleChange, handleSubmit, handleDelete, editItem } = props
+// const FromEdit = (props) => {
+//     const { item, handleChange, handleSubmit, handleDelete, editItem } = props
     // console.log(item,item.id);
-    return (
-        <div>
+    // return (
+    //     <div>
         {/* {editItem === true
             && 
         <StyleEdit > 
@@ -20,10 +20,10 @@ const FromEdit = (props) => {
         </Style>
         </StyleEdit>
         } */}
-        </div>
-    )
-}
-export default FromEdit
+//         </div>
+//     )
+// }
+// export default FromEdit
 
 
 

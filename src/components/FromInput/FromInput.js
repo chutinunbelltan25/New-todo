@@ -1,7 +1,7 @@
 import React from 'react';
 import { Style, StyleInput } from "./formInput.style";
 const Frominput = (props) => {
-        const { item, handleChange, handleSubmit, editItem } = props;
+        const { item, handleChange, handleSubmit } = props;
     return (
         <Style>
             <StyleInput onSubmit={handleSubmit}>
